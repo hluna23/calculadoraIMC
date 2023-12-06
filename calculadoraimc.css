@@ -1,0 +1,127 @@
+body{
+    background-image: url(gym_isometrica1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    color: #4D4D4D;
+}
+
+.menu{
+    background-color: #E8C303;
+    width: 203vh;
+    height: 81px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu li{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 51px;
+    color: #1E3A3D;
+    
+}
+
+.menu img{
+    width: 80px;
+}
+
+.login{
+    background-color: #1E3A3D;
+    width: 180px;
+    height: 81px;
+    margin-left: 50px;
+    font-size: 15px;
+
+}
+
+.login li{
+    color: #E8C303;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.imc{
+    background-color: #E8C303;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #1E3A3D;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 5px 1px 18px #306584;
+}
+
+.resultado{
+    background-color: #306584;
+    width: 340px;
+    height: 37px;
+    align-items: center;
+    padding: 5px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: right;
+    margin-top: -28px;
+}
+
+#calculadora{
+    display: block;
+    margin-top: 15px;
+    width: 50px;
+    margin-left: 96px;
+    border-radius: 15px;
+    
+    
+}
+
+#calculadora input{
+    border-radius: 5px;
+    background-color: #306584;
+    border-color: #111;
+    width: 150px;
+    height: 25px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+}
+
+#calculadora button{
+    border-radius: 5px;
+    background-color:  #306584;
+    border-color: #111; 
+    width: 155px;
+    padding: 5px;
+    margin-left: 1px;
+    margin-top: 8px;
+    font-size: 15px bold;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+#calculadora button:hover{
+    background-color:  #1E3A3D;
+    border-color: #E8C303;
+    color:  #fff;
+}
+
+.info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-size: medium;
+    color: #1E3A3D;
+}

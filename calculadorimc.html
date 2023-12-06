@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadoraimc.css">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <header>
+
+        <menu class="menu">
+            <img src="nutrifit_logo.png" alt="logo nutrifit">
+            <li>nosotros</li>
+            <li>nutrucion</li>
+            <li>fitness</li>
+            <li>salud mental</li>
+            <li>salud</li>
+            <li>personal trainer</li>
+            <li>gyms</li>
+            <div class="login">
+                <li>login</li>
+                <li>resgister</li>
+                <div>
+
+        </menu>
+    </header>
+    <main>
+        <section class="imc">
+            <h1>NutriFit Connection</h1>
+            <p class="resultado" id="resultadoImc"></p>
+            <p class="resultado" id="resultado"></p>
+            <div id="calculadora">
+                <input id="peso" placeholder="peso"></input>
+                <input id="altura" placeholder="altura"></input>
+                <button type="submit" id="btnCalcularImc"> Calcular IMC</button>
+
+                <!-- <button onclick="calcular_Imc">Calcular IMC</button> -->
+            </div>
+            <p class="info">La clasificación del índice de masa corporal (IMC) puede ayudar a identificar la obesidad o
+                desnutrición en niños, adolescentes, adultos y ancianos.</p>
+        </section>
+    </main>
+
+    <!-- <script>
+
+        // function calcular_Imc() {
+        //     var peso = document.getElementById('peso').value
+        //     var altura = document.getElementById('altura').value
+        //     var resultado = document.getElementById('resultado')
+
+        //     var res = peso / (altura * altura)
+
+        //     if (res < 18.5) {
+        //         console.log("voce esta muio baixo de peso")
+        //         resultado.innerText += `seu IMC é: ${res.toFixed(2)} voce esta muio baixo de peso  `
+        //     } else if (res > 18.5 && res <= 24.99) {
+        //         console.log("voce tiene un peso normal")
+        //         resultado.innerText += `seu IMC é: ${res.toFixed(2)} voce tiene un peso normal `
+        //     } else if (res > 24.99 && res <= 30) {
+        //         console.log("voce tiene sobre peso")
+        //         resultado.innerText += `seu IMC é: ${res.toFixed(2)} <br> voce tiene sobre peso `
+        //     } else if (res > 30 && res <= 34.99) {
+        //         console.log("voce tiene obesidad")
+        //         resultado.innerText += `seu IMC é: ${res.toFixed(2)} voce tiene obesidad `
+        //     } else if (res > 35 && res <= 39.99) {
+        //         console.log('voce tiene obesidad severa')
+        //         resultado.innerText += `seu IMC é: ${res.toFixed(2)} voce tiene obesidad severa`
+        //     } else if (res >= 40) {
+        //         console.log('voce tiene obesidad mordida')
+        //         resultado.innerText += `seu IMC é: ${res.toFixed(2)}`
+        //         resultado.innerHTML += `voce tiene obesidad mordida`
+        //     }
+
+        //     // res.innerText += `seu IMC é: ${res}`
+
+        //     console.log('seu IMC é:', res.toFixed(2))
+        // }
+
+
+    </script> -->
+    <script src="calculadoraImc.js"></script>
+</body>
+
+</html>
